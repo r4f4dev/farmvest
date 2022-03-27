@@ -102,6 +102,9 @@ body {
     flex: 0 0 auto;
 }
 
+
+/* Intro section  */
+
 .ellipse_1{
     position: absolute;
     top: -300px;
@@ -203,12 +206,13 @@ body {
 
 .money_bag {
   display: block;
-  background-image: url('/assets/images/money-bag.png');
+  background-image: url('../images/money-bag.png');
   width: 48px;
   height: 48px;
   position: relative;
-  top: 80px;
-  left: 60%;
+  top: 20px;
+  left: 70%;
+  z-index: 1;
 }
 
 .circle {
@@ -219,24 +223,58 @@ body {
   border: 1px solid #A8ADAF;
   border-radius: 50%;
   top: 430px;
-  left: 50%;
+  left: 80%;
+}
+
+.circle_2 {
+  display: block;
+  position:absolute;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #A8ADAF;
+  border-radius: 50%;
+  top: 950px;
+  left: 20%;
+}
+
+.dollar {
+  display: block;
+  background-image: url('../images/dollar.png');
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: 0px;
+  left: 10%;
+  z-index: 1;
+}
+
+.star {
+  display: block;
+  background-image: url('../images/star.png');
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 30px;
+  left: 80%;
+  z-index: 1;
 }
 
 
 .currency_n {
   display: block;
-  background-image: url('/assets/images/currency_n.png');
+  background-image: url('../images/currency_n.png');
   width: 32px;
   height: 32px;
   position: relative;
-  top: 430px;
-  right: 10%;
+  top: -130px;
+  left: 90%;
 }
 
 
 .intro {
   max-width: 50%;
   margin: 0 auto;
+  margin-top: 140px;
 }
 
 .intro-title {
@@ -245,7 +283,6 @@ body {
   font-weight: 700;
   font-size: 60px;
   line-height: 90px;
-  margin-top: 140px;
 }
 
 .intro-text {
@@ -297,7 +334,52 @@ input:focus, textarea:focus, select:focus{
   text-indent: 15px;
 }
 
+/* Brands section  */
 
-/* TODO -> input cursor , fix decoration icons ,  buttons hover
+.brands {
+  max-width: 1420px;
+  margin: 200px auto 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width: 200px;
+  height: 50px;
+}
+
+.info {
+  max-width: 1420px;
+  margin: 200px auto 0 auto;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.info_options {
+  display: flex;
+}
+
+.image_block {
+  flex-shrink: 0;
+}
+
+.info_title {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+
+
+/* TODO -> input cursor , fix decoration icons ,  buttons hover, 2 cirles overdflow hidden
 
 
