@@ -364,18 +364,108 @@ input:focus, textarea:focus, select:focus{
 
 .info_options {
   display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.information_block-left {
+  margin-right: 150px;
+}
+
+.information_block-right {
+  margin-left: 150px;
 }
 
 .image_block {
   flex-shrink: 0;
+  background-color: #F0F8F2;
+  border-radius: 10px;
+  padding: 166px 45px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image_block img {
+  width: 660px;
+  height: 604px;
+  position: relative;
 }
 
 .info_title {
   font-family: 'Spartan';
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 64px;
   line-height: 90px;
+}
+
+.info_option_icon {
+  margin-right: 30px;
+}
+
+.info_option_title {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.info_option_text {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+}
+
+.arc {
+  display: block;
+  position:absolute;
+  width: 640px;
+  height: 640px;
+  border: 1px solid #00821A;
+  border-radius: 50%;
+  top: -20%;
+  left: 60%;
+  overflow: hidden;
+}
+
+.arc2 {
+  display: block;
+  position:absolute;
+  width: 640px;
+  height: 640px;
+  border: 1px solid #00821A;
+  border-radius: 50%;
+  top: -10%;
+  left: 70%;
+  overflow: hidden;
+}
+
+
+.arc3 {
+  display: block;
+  position:absolute;
+  width: 640px;
+  height: 640px;
+  border: 1px solid #00821A;
+  border-radius: 50%;
+  top: 40%;
+  left: -30%;
+  overflow: hidden;
+}
+
+.arc4 {
+  display: block;
+  position:absolute;
+  width: 640px;
+  height: 640px;
+  border: 1px solid #00821A;
+  border-radius: 50%;
+  top: 45%;
+  left: -40%;
+  overflow: hidden;
 }
 
 
