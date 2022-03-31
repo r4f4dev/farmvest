@@ -163,6 +163,14 @@ body {
     text-decoration: none;
 }
 
+.ml-5 {
+  margin-left: 50px;
+}
+
+.block {
+  display: block !important;
+}
+
 .buttons {
   margin-top: 10px;
   font-family: 'Lato';
@@ -202,6 +210,14 @@ body {
 
 .center {
   text-align: center;
+}
+
+.m-0 {
+  margin: 0 auto;
+}
+
+.flex-center {
+  justify-content: space-between !important;
 }
 
 .money_bag {
@@ -468,8 +484,106 @@ input:focus, textarea:focus, select:focus{
   overflow: hidden;
 }
 
+.dropdown {
+  background-color: #F0F9F2;
+  width: 600px;
+  height: 90px;
+  border-radius: 5px;
+  position: relative;
+  padding: 24px;
+  margin-top: 30px;
+}
+
+.dropdown_text {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 177%;
+}
+
+.arrow_d {
+  background-image: url(../images/arrow-down.png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 40%;
+  left: 90%;
+}
+
+.number {
+  display: block;
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #E2F2E6;
+  padding-top: 25%;
+}
+
+.info_option_title_2 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #263238;
+}
+
+.image_default {
+  flex-shrink: 0;
+}
+
+.image_default img {
+  width: 680px;
+  height: 812px;
+  border-radius: 10px;
+}
+
+.customers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 260px;
+  max-width: 1400px;
+}
+
+.customers_text {
+  max-width: 1088px;
+}
+
+.customers_text .info_text {
+  max-width: 563px;
+}
+
+.card {
+  background-color: #F0F9F2;
+  border-radius: 20px;
+  width: 686px;
+  height: 377px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 575px) {
+  #main {
+    display: block;
+  }
+}
 
 
-/* TODO -> input cursor , fix decoration icons ,  buttons hover, 2 cirles overdflow hidden
+/* TODO -> input cursor , fix decoration icons ,  buttons hover, 2 cirles overflow hidden
 
 
