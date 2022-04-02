@@ -83,7 +83,8 @@ select {
 html,
 body {
     height: 100%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
+    overflow: hidden;
 }
 
 .container {
@@ -91,12 +92,15 @@ body {
     flex-direction: column;
     height: 100%;
     margin: 0 auto;
+    overflow-y: scroll;
 }
 
 .content {
+    max-width: 1620px;
     flex: 1 0 auto;
     margin: 0 100px;
     position: relative;
+    overflow: hidden;
 }
 .footer {
     flex: 0 0 auto;
@@ -167,6 +171,16 @@ body {
   margin-left: 50px;
 }
 
+.flex-start {
+  align-items: flex-start !important; 
+}
+
+.btn:hover {
+  background-color: #299429;
+  color: #ffffff;
+  transition: 0.5s linear;
+}
+
 .block {
   display: block !important;
 }
@@ -186,6 +200,7 @@ body {
     border: 1px solid #299429;
     border-radius: 5px;
     padding: 13px 25px;
+    cursor: pointer;
 }
 
 .black {
@@ -397,7 +412,8 @@ input:focus, textarea:focus, select:focus{
 }
 
 .information_block-right {
-  margin-left: 150px;
+  margin-left: 120px;
+  max-width: 570px;
 }
 
 .image_block {
@@ -421,6 +437,7 @@ input:focus, textarea:focus, select:focus{
   font-weight: 700;
   font-size: 64px;
   line-height: 90px;
+  width: 100%;
 }
 
 .info_option_icon {
@@ -494,12 +511,13 @@ input:focus, textarea:focus, select:focus{
 
 .dropdown {
   background-color: #F0F9F2;
-  width: 600px;
+  width: 100%;
   height: 90px;
   border-radius: 5px;
   position: relative;
   padding: 24px;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .dropdown_text {
@@ -577,6 +595,10 @@ input:focus, textarea:focus, select:focus{
   overflow: hidden;
   margin-top: 20px;
   margin-right: 50px;
+}
+
+.customers_comments :last-child {
+  margin-right: 0;
 }
 
 .card img {
@@ -713,6 +735,50 @@ input:focus, textarea:focus, select:focus{
 .footer_info img {
   width: 143px;
   height: 25px;
+}
+
+.footer_follow_text {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.phone {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.copyright {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.submenu {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer-flex {
+  margin-top: 70px;
+}
+
+.footer_submenu hr {
+  color: #B5BDBC;
+}
+
+.footer_follow_one {
+  margin-right: 48px;
 }
 
 
