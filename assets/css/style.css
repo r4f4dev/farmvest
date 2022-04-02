@@ -641,6 +641,80 @@ input:focus, textarea:focus, select:focus{
   margin-top: 200px;
 }
 
+.footer_container {
+  max-width: 1620px;
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.footer_submenu {
+
+}
+
+.footer_submenu hr {
+  margin-bottom: 60px;
+}
+
+.footer-flex {
+  flex: 1;
+}
+
+.footer_subscribe {
+  max-width: 533px;
+  height: 164px;
+}
+
+.footer_subscribe_text {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 177%;
+}
+
+.footer_subscribe_form {
+  position: relative;
+}
+
+.get_started_form input {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
+.get_started_form button {
+  position: absolute;
+  top: 5px;
+  left: 348px;
+  width: 180px;
+  height: 64px;
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.footer_info_text {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 177%;
+}
+
+.footer_info {
+  max-width: 352px;
+}
+
+.footer_info img {
+  width: 143px;
+  height: 25px;
+}
+
 
 @media screen and (max-width: 575px) {
   #main {
