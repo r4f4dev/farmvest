@@ -112,7 +112,7 @@ body {
 .ellipse_1{
     position: absolute;
     top: -300px;
-    left: -100px;
+    left: -200px;
     width: 585px;
     height:585px;
     border-radius:50%;
@@ -123,7 +123,7 @@ body {
 .ellipse_2{
     position: absolute;
     top:-250px;
-    left: -150px;
+    left: -250px;
     width: 585px;
     height:585px;
     border-radius:50%;
@@ -131,11 +131,38 @@ body {
     z-index: 0;
 }
 
+.circle_card {
+  position: absolute;
+  top: -100px;
+  left: 30%;
+  width: 585px;
+  height:585px;
+  border-radius:50%;
+  border:1px solid #91D0A3;
+  z-index: 0;
+}
+
+
+.circle_card_2 {
+  position: absolute;
+  top: -30px;
+  left: 30%;
+  width: 585px;
+  height:585px;
+  border-radius:50%;
+  border:1px solid #91D0A3;
+  z-index: 0;
+}
+
+.z-2 {
+  z-index: 2;
+}
+
 .navbar {
+    max-width: 1620px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
     margin: 90px 50px 0 50px;
 }
 
@@ -173,6 +200,10 @@ body {
 
 .flex-start {
   align-items: flex-start !important; 
+}
+
+.flex-around {
+  justify-content: space-evenly;
 }
 
 .btn:hover {
@@ -229,6 +260,10 @@ body {
 
 .m-0 {
   margin: 0 auto;
+}
+
+.h-100 {
+  height: 100%;
 }
 
 .flex-center {
@@ -317,6 +352,7 @@ body {
 }
 
 .intro-title {
+  max-width: 923px;
   font-family: 'Spartan';
   font-style: normal;
   font-weight: 700;
@@ -325,6 +361,7 @@ body {
 }
 
 .intro-text {
+  max-width: 725px;
   margin-top: 30px;
   font-family: 'Spartan';
   font-style: normal;
@@ -586,6 +623,13 @@ input:focus, textarea:focus, select:focus{
   max-width: 563px;
 }
 
+.info_text {
+  margin-bottom: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
 .card {
   background-color: #F0F9F2;
   border-radius: 20px;
@@ -640,6 +684,8 @@ input:focus, textarea:focus, select:focus{
   background-color: #F0F8F2;
   border-radius: 20px;
   padding: 70px 0;
+  position: relative;
+  overflow: hidden;
 }
 
 
@@ -666,7 +712,7 @@ input:focus, textarea:focus, select:focus{
 .footer_container {
   max-width: 1620px;
   height: 100%;
-  padding-bottom: 60px;
+  padding:0 10px 60px 10px;
 }
 
 .footer_submenu {
@@ -726,6 +772,7 @@ input:focus, textarea:focus, select:focus{
   font-weight: 400;
   font-size: 18px;
   line-height: 177%;
+  margin-top: 20px;
 }
 
 .footer_info {
@@ -751,6 +798,7 @@ input:focus, textarea:focus, select:focus{
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  margin-top: 30px;
 }
 
 .copyright {
@@ -769,6 +817,10 @@ input:focus, textarea:focus, select:focus{
   line-height: 16px;
 }
 
+.submenu :not(:last-child) {
+  margin-right: 30px;
+}
+
 .footer-flex {
   margin-top: 70px;
 }
@@ -781,6 +833,25 @@ input:focus, textarea:focus, select:focus{
   margin-right: 48px;
 }
 
+.footer_follow_social {
+  margin-top: 30px;
+}
+
+.footer_follow_social img {
+  margin-right: 15px;
+}
+
+.footer_subscribe_form {
+  margin-top: 30px;
+}
+
+.big_card_icons :last-child {
+  margin-left: 8px;
+}
+
+.big_card_icons :first-child {
+  margin-right: 8px;
+}
 
 @media screen and (max-width: 575px) {
   #main {
